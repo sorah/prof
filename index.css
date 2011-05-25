@@ -1,0 +1,71 @@
+h1 {
+  display: none;
+}
+
+body {
+  text-align: center;
+  font-family: "Droid Sans", "Helvetica", sans-serif;
+}
+
+
+
+#container {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#header {
+  text-align: center;
+  font-family: "Gill Sans", "Droid Sans", "Helvetica", sans-serif;
+}
+
+#header .name {
+  font-size: 80px;
+}
+
+#header .also_known_as_title {
+  font-size: 30px;
+  color: gray;
+}
+
+#header .also_known_as {
+  font-size: 40px;
+}
+
+.icon_and_bio .icon {
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+#contacts_pages {
+  clear: left;
+}
+
+#bio, #contacts_pages, #skills, #products, #works, #talks, #other, #footer, .icon {
+  margin-bottom: 35px;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 1px solid gray;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.time {
+  font-weight: bold;
+  color: #666;
+  text-size: 11px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
