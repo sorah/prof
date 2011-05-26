@@ -22,27 +22,31 @@ body {
 h2,h3,h4,h5,h6 {
   font-weight: normal;
 }
-#header div,h2,h3,h4,h5,h6,h3 a {
+.name, .also_known_as, h2, h3, h4, h5, h6, h3 a {
   color: #333;
 }
 
-
+#bio .cl {
+  font-size: 24px;
+}
 
 #header {
   text-align: center;
 }
 
-#header .name {
-  font-size: 80px;
+.name {
+  font-size: 36px;
 }
+
+
 
 #header .also_known_as_title {
   font-size: 30px;
   color: gray;
 }
 
-#header .also_known_as {
-  font-size: 40px;
+.also_known_as * {
+  color: #000;
 }
 
 .icon_and_bio .icon {
