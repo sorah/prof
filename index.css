@@ -2,12 +2,15 @@ h1 {
   display: none;
 }
 
-body {
-  text-align: center;
-  font-family: "Droid Sans", "Helvetica", sans-serif;
+* {
+  font-family: 'Myriad Pro', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  font-size: 18px;
+  color: #555;
 }
 
-
+body {
+  text-align: center;
+}
 
 #container {
   width: 750px;
@@ -16,9 +19,17 @@ body {
   text-align: left;
 }
 
+h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
+#header div,h2,h3,h4,h5,h6,h3 a {
+  color: #333;
+}
+
+
+
 #header {
   text-align: center;
-  font-family: "Gill Sans", "Droid Sans", "Helvetica", sans-serif;
 }
 
 #header .name {
@@ -61,11 +72,11 @@ h2 {
 }
 
 .time {
-  font-weight: bold;
-  color: #666;
-  text-size: 11px;
+  color: #333;
+  font-size: 20px;
 }
 
-h3 {
+h3,h3 a {
+  font-size: 20px;
   margin-bottom: 10px;
 }
