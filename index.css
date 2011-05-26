@@ -56,6 +56,10 @@ h2,h3,h4,h5,h6 {
   clear: left;
 }
 
+#bio {
+  margin-top: 50px;
+}
+
 #bio, #contacts_pages, #skills, #products, #works, #talks, #other, #footer, .icon {
   margin-bottom: 35px;
 }
@@ -73,10 +77,18 @@ h2 {
 
 .time {
   color: #333;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h3,h3 a {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.cl, .cl a {
+  color: #0B8BBB;
+}
+
+.as {
+  color: #333;
 }
