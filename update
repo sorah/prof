@@ -1,2 +1,0 @@
-#!/bin/sh
-ftp -u ftp://sorah@cosmio.net/www/public_html index.css index.html 
