@@ -111,3 +111,21 @@ h3,h3 a {
   list-style: none;
   padding-left: 0px;
 }
+
+#contacts_pages img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#contacts_pages li {
+  margin-bottom: 3px;
+}
+
+.id_right, .id_left {
+  float: left;
+  width: 375px;
+}
+
+#contacts_pages h2 {
+  margin-bottom: 0;
+}
