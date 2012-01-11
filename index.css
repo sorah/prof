@@ -19,6 +19,14 @@ body {
   text-align: left;
 }
 
+.index_container {
+  position: absolute;
+  top: 50%; left: 50%;
+  margin-left: -375px !important;
+  margin-top: -150px;
+}
+.index_bio { margin: 0 !important; }
+
 h2,h3,h4,h5,h6 {
   font-weight: normal;
 }
@@ -107,17 +115,17 @@ h3,h3 a {
   color: #333;
 }
 
-#contacts_pages ul {
+#contacts_pages ul, .ids ul {
   list-style: none;
   padding-left: 0px;
 }
 
-#contacts_pages img {
+#contacts_pages img, .ids img {
   vertical-align: middle;
   margin-right: 5px;
 }
 
-#contacts_pages li {
+#contacts_pages li, .ids li {
   margin-bottom: 3px;
 }
 
@@ -128,4 +136,23 @@ h3,h3 a {
 
 #contacts_pages h2 {
   margin-bottom: 0;
+}
+
+.index_iab {
+  margin-top: 10px;
+}
+
+#index_foot {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.index_bio {
+  -webkit-box-shadow: 0px 0 5px #aaa;
+  -moz-box-shadow: 0px 0 5px #aaa;
+  box-shadow: 0px 0 5px #aaa;
+  height: 200px;
+  padding: 15px;
 }
